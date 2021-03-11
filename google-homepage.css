@@ -11,27 +11,48 @@ header {
 #google-apps-icon {
     width: 25px;
     position: relative;
-    top: 0px;
+    top: 6px;
     right: 0;
-    left: 9px;
-    bottom: 10px;
+    left: 6px;
+    bottom: 0;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(50, 50, 50);
 }
 
-#google-apps {
-    margin: 5px 8px 12px 8px;
+.google-apps {
+    margin: 2px 8px 12px 8px;
     position: relative;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 38px;
+}
+
+.google-apps:hover {
+    margin: 2px 8px 12px 8px;
+    position: relative;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    background-color: rgb(230, 230, 230);
+}
+
+.sign-in-text {
+    color: white;
+}
+
+.sign-in {
+    font-size: 14px;
+    background-color: cornflowerblue;
+    padding: 10px 27px 10px 27px;
+    border-radius: 4px;
+    margin: 4px 10px 12px 10px;
 }
 
 div {
-    margin: 10px 8px 12px 8px;
+    margin: 13px 10px 12px 10px;
 }
 
 .search-bar {
