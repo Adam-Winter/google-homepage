@@ -1,0 +1,69 @@
+body {
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#google-apps-icon {
+    width: 25px;
+    position: relative;
+    top: 0px;
+    right: 0;
+    left: 9px;
+    bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#google-apps {
+    margin: 5px 8px 12px 8px;
+    position: relative;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+div {
+    margin: 10px 8px 12px 8px;
+}
+
+.search-bar {
+    position: absolute;
+}
+
+.text-bar {
+    height: 1cm;
+    border-radius: 1cm;
+}
+
+.search-bar::before {
+    position: absolute;
+    content:"";
+    top: 0px;
+    left: 0px;
+    background-color:white;
+    border-radius: 50%;
+    width: 1cm;
+    height: 1cm;
+    z-index: -1;
+}
+
+.search-bar::after {
+    content:"";
+    position: absolute;
+    background-image: url(google-mic.png);
+    background-size: 1cm;
+    right: 0px;
+    top: 0px;
+    border-radius: 50%;
+    width: 1cm;
+    height: 1cm;
+}
+
