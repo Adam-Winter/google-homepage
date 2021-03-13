@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 18px;
-    height: 18px;
+    height: 18px; 
     position: relative;
     top: 6.4px;
     right: 0;
@@ -22,7 +22,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 97vh;
     font-size: 13px;
     font-family: arial, sans-serif;
     text-align: center;
@@ -32,10 +32,6 @@ body {
 
 .main-div {
     width: 100%;
-    /*margin: 30% 0% 30% 0%;*/
-    align-self: stretch;
-    margin:;
-    height: ;
 }
 
 header {
@@ -106,11 +102,14 @@ div {
 }
 
 .search-bar {
-    position: relative;
+    position: absolute;
+    width: 40vw;
+    margin: 0vw 27vw 0vw 27vw;
 }
 
 .text-bar {
-    height: 1cm;
+    width: 100%;
+    height: 1.1cm;
     border-radius: 1cm;
     border: 1px solid rgb(200, 200, 200);
 }
@@ -122,20 +121,20 @@ div {
     left: 0px;
     background-color:white;
     border-radius: 50%;
-    width: 1cm;
-    height: 1cm;
+    width: 17px;
+    height: 20px;
     z-index: -1;
 }
 
 .search-bar::after {
     content:"";
-    position: relative;
+    position: absolute;
     background-image: url(google-mic.png);
-    background-size: 1cm;
-    right: 0px;
-    top: 0px;
+    background-size: 15px;
+    right: 20px;
+    top: 13px;
     border-radius: 50%;
-    width: 1cm;
-    height: 1cm;
+    width: 15px;
+    height: 22px;
 }
 
