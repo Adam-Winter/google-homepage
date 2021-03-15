@@ -115,11 +115,10 @@ a:hover {
     width: 100%;
     position: absolute;
     top: 350px;
-    width: 40vw;
-    /*margin: 0vw 27vw 0vw 27vw;*/
 }
 
 .text-bar {
+    width: 570px;
     height: 1.1cm;
     border-radius: 1cm;
     border: 1px solid rgb(200, 200, 200);
@@ -141,11 +140,11 @@ a:hover {
     content:"";
     position: absolute;
     background-image: url(google-mic.png);
-    background-size: 15px;
-    right: 20px;
-    top: 13px;
+    background-size: 14px;
+    right: 33.7%;
+    top: 28%;
     border-radius: 50%;
-    width: 15px;
-    height: 22px;
+    width: 14px;
+    height: 20px;
 }
 
