@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    padding: 0px;
     height: 100vh;
     font-size: 13px;
     font-family: arial, sans-serif;
@@ -37,6 +38,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
 }
 
 #main-logo-div {
@@ -115,8 +117,6 @@ a:hover {
 }
 
 .search-bar {
-    width: 100%;
-    top: 350px;
 }
 
 .text-bar {
@@ -125,6 +125,18 @@ a:hover {
     height: 1.1cm;
     border-radius: 1cm;
     border: 1px solid rgb(200, 200, 200);
+}
+
+.text-bar:hover {
+    width: 570px;
+    background-color: transparent;
+    height: 1.1cm;
+    border-radius: 1cm;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: 0x 0px 8px rgb(200, 200, 200);
+    box-shadow: 0px 0x 8px rgb(200, 200, 200);
+    box-shadow: 0px 0px 8px rgb(200, 200, 200);
+    box-shadow: 0px 0px 8px rgb(200, 200, 200);
 }
 
 .search-bar::before {
@@ -139,12 +151,13 @@ a:hover {
     z-index: -1;
 }
 
-.search-bar::after {
+.text-bar::after {
     content:"";
+    position: absolute;
     background-image: url(google-mic.png);
     background-size: 14px;
-    /*right: 33.7%;*/
-    top: 28%;
+    left: 570px;
+    /*top: 28%;*/
     border-radius: 50%;
     width: 14px;
     height: 20px;
@@ -155,9 +168,13 @@ a:hover {
     margin: 2px;
 }
 
+#button-div {
+    width: 100%;
+}
+
 .main-buttons {
     padding: 7px 11px;
-    margin: 30px 5px 30px 5px;
+    margin: 10px 5px 10px 5px;
     border: none;
     background-color: rgb(245, 245, 245);
     color: rgb(80, 80, 80);
@@ -171,7 +188,7 @@ a:hover {
 }
 
 .footer-one {
-    height: 1.1cm;
+    height: 1.2cm;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -188,7 +205,7 @@ a:hover {
 }
 
 .footer-country {
-    height: 1.1cm;
+    height: 1.2cm;
     display: flex;
     justify-content: flex-start;
     align-items: center;
