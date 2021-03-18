@@ -120,6 +120,7 @@ a:hover {
 }
 
 .text-bar {
+    outline: none;
     width: 570px;
     background-color: transparent;
     height: 1.1cm;
