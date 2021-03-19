@@ -106,20 +106,39 @@ a:hover {
     padding: 10px 26.5px 10px 26.5px;
     border-radius: 4px;
     margin: 5px 10px 12px 10px;
-    box-shadow: 1px 1px 1px rgb(192, 214, 255);
-    box-shadow: -2px -1px 10px rgb(192, 214, 255);
-    box-shadow: -2px 1px 10px rgb(192, 214, 255);
-    box-shadow: 1px -1px 10px rgb(192, 214, 255);
+    box-shadow: 0px 0px 6px rgb(192, 214, 255);
 }
 
 .top-div {
     margin: 4px 9px 12px 7px;
 }
 
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lens {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: 35px;
+    top: 14px;
+}
+
+.mic {
+    width: 14px;
+    height: 22px;
+    position: relative;
+    right: 35px;
+    top: 11px;
+}
+
 .text-bar {
     padding: 0px 0px 0px 45px;
     outline: none;
-    width: 570px;
+    width: 520px;
     background-color: transparent;
     height: 1.1cm;
     border-radius: 1cm;
@@ -127,35 +146,12 @@ a:hover {
 }
 
 .text-bar:hover {
-    width: 570px;
+    width: 520px;
     background-color: transparent;
     height: 1.1cm;
     border-radius: 1cm;
     border: 1px solid rgb(200, 200, 200);
     box-shadow: 0px 0px 6px rgb(200, 200, 200);
-}
-
-.text-bar:before {
-    position: absolute;
-    content: "";
-    background-image: url(lens.png);
-    top: 50px;
-    left: 50px;
-    border-radius: 50%;
-    width: 17px;
-    height: 20px;
-}
-
-.text-bar:after {
-    content: "";
-    position: absolute;
-    background-image: url(google-mic.png);
-    background-size: 14px;
-    left: 50px;
-    top: 50px;
-    border-radius: 50%;
-    width: 14px;
-    height: 20px;
 }
 
 .language {
