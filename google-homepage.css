@@ -145,12 +145,17 @@ a:hover {
     border: 1px solid rgb(220, 220, 220);
 }
 
+@media (max-width=530px) {
+    .text-bar {
+        width: 400px;
+    }
+}
+
 .text-bar:hover {
-    width: 520px;
-    background-color: transparent;
-    height: 1.1cm;
-    border-radius: 1cm;
-    border: 1px solid rgb(200, 200, 200);
+    box-shadow: 0px 0px 6px rgb(200, 200, 200);
+}
+
+.text-bar:focus {
     box-shadow: 0px 0px 6px rgb(200, 200, 200);
 }
 
@@ -179,7 +184,11 @@ a:hover {
     background-color: rgb(245, 245, 245);
     color: rgb(80, 80, 80);
     font-size: 15px; 
-    box-shadow: 0px 0px 4px rgb(200, 200, 200);
+    box-shadow: 0px 0px 3px rgb(150, 150, 150);
+}
+
+.bottom-a {
+    color: rgba(0,0,0, 0.54);
 }
 
 #footer {
@@ -194,16 +203,19 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-two {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-three {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-country {
@@ -211,6 +223,7 @@ a:hover {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0px 0px 0px 20px;
     border-bottom: 1px solid rgb(200, 200, 200);
 }
