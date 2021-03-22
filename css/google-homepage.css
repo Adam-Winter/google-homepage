@@ -34,6 +34,7 @@ body {
 }
 
 .main-div {
+    margin: 0px 0px 18vh 0px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -145,9 +146,27 @@ a:hover {
     border: 1px solid rgb(220, 220, 220);
 }
 
-@media (max-width=530px) {
+@media (max-width: 600px) {
     .text-bar {
         width: 400px;
+    }
+
+    .footer-one {
+        justify-content: space-around;
+    }
+    
+    .footer-two {
+        justify-content: space-around;
+    }
+    
+    .footer-three {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 420px) {
+    .text-bar {
+        width: 300px;
     }
 }
 
