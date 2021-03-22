@@ -146,30 +146,6 @@ a:hover {
     border: 1px solid rgb(220, 220, 220);
 }
 
-@media (max-width: 600px) {
-    .text-bar {
-        width: 400px;
-    }
-
-    .footer-one {
-        justify-content: space-around;
-    }
-    
-    .footer-two {
-        justify-content: space-around;
-    }
-    
-    .footer-three {
-        justify-content: space-around;
-    }
-}
-
-@media (max-width: 420px) {
-    .text-bar {
-        width: 300px;
-    }
-}
-
 .text-bar:hover {
     box-shadow: 0px 0px 6px rgb(200, 200, 200);
 }
@@ -249,4 +225,34 @@ a:hover {
 
 .footer-div {
     padding: 1px 20px 1px 20px;
+    margin: 8px 0px 8px 0px;
+}
+
+@media (max-width: 600px) {
+    .text-bar {
+        width: 400px;
+    }
+
+    .footer-one {
+        justify-content: space-around;
+        height: 2cm;
+    }
+    
+    .footer-two {
+        justify-content: space-around;
+    }
+    
+    .footer-three {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 420px) {
+    .text-bar {
+        width: 300px;
+    }
+
+    .footer-one {
+        height: 3cm;
+    }
 }
